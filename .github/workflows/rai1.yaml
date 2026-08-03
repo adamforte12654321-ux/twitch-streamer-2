@@ -19,6 +19,6 @@ jobs:
         run: |
           echo "Avvio streaming Rai 1..."
           
-          ffmpeg -re -i "https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/6PgGBYyRtrB6D_-sMqbp85aC1WT5PjFMEaEHpN-DB0unpznjcAfUqst4faC1GfvpkL95lbINhC_rV4BVYfgAMlZevF-Jrjisn0hhBxkuQfCuBMW8lWMDASaajK-VKlzVOni87fvpxZ8OyV2vpOuVDbJf4qXKSHqMtLj87MgjjR9O9Hp-eKW_ieaoo6slhvNhDYUSulGyWHSBInTdcDNyfMhsUFep-IfGQ6ZJQt_JLDji20_5OhAmT3qG5rTTrKB1/hls/index.m3u8" \
+          ffmpeg -re -i "https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8" \
             -c:v libx264 -preset veryfast -r 30 -c:a aac -f flv \
             "rtmps://fa7233cb171.global-contribute.live-video.net/app/sk_us-west-2_xDwDHZj9rFKE_gZgv8AT8bgKeZb1TROOpS0dQgaqzFH"
